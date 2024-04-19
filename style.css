@@ -1,0 +1,128 @@
+body{
+	text-align: center;
+	background-color: #CCCCCC;
+	background-image: linear-gradient(to right, black, gray, gray, black);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border: 2px solid gray;
+	padding: 20px;
+}
+hr{
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+
+p{
+	font-family: sans-serif;
+	color: darkgreen;
+}
+p.desc{
+	text-align: justify;
+	color: white;
+}
+h1{
+	color: white;
+	font-family: Verdana;
+	font-size: 30px;
+	font-weight: bolder;
+}
+img{
+	width: 150px;
+	height: 150px;
+}
+h3, h4, ul, ol{
+	text-align: left;
+	font-family: Arial;
+  color: white;
+}
+.tabIn{
+	background-color: gray;
+	padding: 5px;
+	font-style: italic;
+	color: white;
+}
+
+th {
+  color: white;
+}
+td {
+  color: white;
+}
+
+ul.navLinks{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-flex;
+}
+.navLinks li{
+	text-align: center;
+}
+.navLinks li a{
+	display: inline-block;
+	color: black;
+	padding: 10px 16px 10px 16px;
+	text-decoration: none;
+	margin: 0 20px 0 20px;
+	border: 2px solid black;
+	
+}
+li a:hover{
+	background-color: darkgreen;
+	color: White;
+	border-radius: 5px;
+}
+h2 a{
+	text-decoration: none;
+	font-family: Arial;
+	color: whitesmoke;
+}
+
+h3.forTable{
+	text-align: center;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	font-family: Arial;
+
+}
+td, th{
+	padding: 5px;
+}
+.educ{
+	margin: 0;
+	padding: 0;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+table thead th {
+    padding: 12px;
+    text-align: center;
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+}
+h2 a:hover{
+	border: 2px solid black;
+	background-color: gray;
+	color: whitesmoke;
+	padding: 5px;
+	border-radius: 8px;
+}
